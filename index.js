@@ -6,6 +6,6 @@ module.exports = function(options) {
     delete options.compiler;
 
     return james.createStream(function(file, callback) {
-        callback(options.compiler.compile(file, options)(options.context));
+        callback(compiler.compile(file, options)(options.context));
     });
 };
