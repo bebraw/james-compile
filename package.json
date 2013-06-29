@@ -2,7 +2,7 @@
   "name": "james-compile",
   "description": "Compiler plugin for james.js",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "peerDependencies": {
     "james": "0.1.x"
   },
